@@ -1,0 +1,38 @@
+{
+  "name": "msphp/framework",
+  "type": "library",
+  "keywords": [
+    "framework",
+    "msphp"
+  ],
+  "homepage": "https://github.com/msphp",
+  "license": "MIT",
+  "description": "MsPHP framework core.",
+  "authors": [
+    {
+      "name": "Levine",
+      "email": "phplevine@gmail.com"
+    },
+    {
+      "name": "sytlw",
+      "email": "sytlw@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/msphp/issues",
+    "source": "https://github.com/msphp-framework"
+  },
+  "require": {
+    "php": ">=7.2",
+    "psr/container": "^1.0.0",
+    "nikic/fast-route": "^1.3.0",
+    "workerman/workerman": "^4.0.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "msphp\\": "src"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
